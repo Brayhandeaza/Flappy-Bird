@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/birdUp.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Flappy Bird</title>
+</head>
+<body>
+    <div class="playAgain">
+        <h1>Flappy Bird</h1>
+        <h2>Game Over</h2>
+        <img class="dead" src="images/birdDeath.png">
+        <p class="click">Click to play again</p>
+    </div>
+    <script>
+        let playAgain = document.querySelector('.click');
+         playAgain.addEventListener('click', function() {
+             location.replace("index.html");
+         })
+    </script>
+
+    
+</body>
+</html>
